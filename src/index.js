@@ -10,9 +10,13 @@ import initialState from './data/initialState'
 
   let maxRank = getMaxRank(initialState.rankings);
 
-  initialState.rankings.forEach((ranking) => {
-    ranking.rankRatio = calculateRankRatio(ranking.rank, maxRank);
-  });
+  initialState.rankings
+  	.sort((rankingA, rankingB) => (rankingA.sort < rankingB.sort ? -1 : 1))
+  	.forEach((ranking) => {
+    	ranking.rankRatio = calculateRankRatio(ranking.rank, maxRank);
+  	});
+
+
 
 
 const store = createStore(reducer, initialState)
