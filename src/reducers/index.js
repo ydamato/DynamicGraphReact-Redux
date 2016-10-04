@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux'
 import {calculateRankRatio, getMaxRank} from '../helpers/ranking'
 
-
 const rankings = (state = [], action) => {
   switch (action.type) {
 
@@ -29,8 +28,8 @@ const rankings = (state = [], action) => {
   }
 }
 
-const todoApp = combineReducers({
+const rankingApp = combineReducers({
   rankings
 })
 
-export default todoApp
+export default rankingApp
