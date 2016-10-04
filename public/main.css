@@ -1,0 +1,21 @@
+.graph {
+	border: 1px solid black;
+	display: flex;
+	width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.graph-item {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 0 10px;
+	width: 50px;
+}
+
+.graph-item-rank {
+	background-color: cyan;
+}
