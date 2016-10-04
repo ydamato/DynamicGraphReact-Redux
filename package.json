@@ -1,0 +1,43 @@
+{
+  "name": "dynamicgraphreact",
+  "version": "1.0.0",
+  "description": "Technical test using Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ydamato@github.com/ydamato/DynamicGraphReact-Redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydamato/DynamicGraphReact-Redux/issues"
+  },
+  "homepage": "https://github.com/ydamato/DynamicGraphReact-Redux#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
