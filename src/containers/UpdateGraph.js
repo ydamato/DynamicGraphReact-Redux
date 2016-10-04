@@ -20,7 +20,7 @@ let UpdateGraph = ({ dispatch, years }) => {
   };
 
   return (
-    <div>
+    <div className="updateGraph">
       <form onSubmit={onSubmitForm}>
         <div>Change value:</div>
 

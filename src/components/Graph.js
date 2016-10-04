@@ -15,7 +15,8 @@ const Graph = ({ rankings }) => (
 Graph.propTypes = {
   rankings: PropTypes.arrayOf(PropTypes.shape({
     year: PropTypes.string.isRequired,
-    rank: PropTypes.number.isRequired
+    rank: PropTypes.number.isRequired,
+    rankRatio: PropTypes.number.isRequired
   }).isRequired).isRequired
 }
 

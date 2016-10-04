@@ -1,14 +1,14 @@
 .graph {
-	border: 1px solid black;
 	display: flex;
 	width: 100%;
     text-align: center;
     justify-content: center;
-    background-color: grey;
+    background-color: #D8D8D8;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .graph-item {
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -16,6 +16,24 @@
 	width: 50px;
 }
 
+.graph-item-value {
+	font-weight: bold;
+}
+
 .graph-item-rank {
-	background-color: cyan;
+	background-color: #58D3F7;
+	margin: 5px 0;
+}
+
+.updateGraph {
+    border: 1px solid #D8D8D8;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.updateGraph select,
+.updateGraph input,
+.updateGraph button {
+    width: 100px;
+    margin: 10px; 
 }
