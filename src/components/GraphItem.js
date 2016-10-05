@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-const Todo = ({ year, rank, rankRatio }) => {
+const GraphItem = ({ year, rank, rankRatio }) => {
 
   const MAX_HEIGHT = 100,
         MIN_HEIGHT = 5;
@@ -20,10 +20,10 @@ const Todo = ({ year, rank, rankRatio }) => {
   )
 }
 
-Todo.propTypes = {
+GraphItem.propTypes = {
     year: PropTypes.string.isRequired,
     rank: PropTypes.number.isRequired,
     rankRatio: PropTypes.number.isRequired
 }
 
-export default Todo
+export default GraphItem
